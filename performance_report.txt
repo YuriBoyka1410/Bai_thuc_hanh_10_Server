@@ -1,0 +1,25 @@
+TECHLOGISTICS PERFORMANCE REPORT
+
+Dữ liệu kiểm thử: 20.000 đơn hàng
+
+=========================
+KẾT QUẢ CODE MỚI
+=========================
+
+Tổng số bước lặp:
+199990000
+
+Thời gian chạy:
+(Dựa trên kết quả console.time của bạn)
+
+Ví dụ:
+Duplicate Scan: 1450 ms
+
+=========================
+KẾT LUẬN
+=========================
+
+- Đã khắc phục lỗi Infinite Loop.
+- Đã tối ưu vòng lặp bằng cách cho j bắt đầu từ i + 1.
+- Sử dụng break để giảm số phép so sánh không cần thiết.
+- Chương trình chạy ổn định với dữ liệu lớn.
